@@ -17,10 +17,12 @@ below is something need to install:
   
   visa.h , visatype.h , and visa32.lib file ( Note：  that there is a 64 bit and 32bits version of visa32..... ) 
   
-  
-    ![image](https://user-images.githubusercontent.com/7239489/145223125-5e05daa9-280f-4181-bb03-74d77386c8b7.png)
-    
+  "C:\Program Files\IVI Foundation\VISA\Win64\Lib_x64\msc\visa32.lib"    
   this one is ok. 
+  and the *.h file: 
+  C:\Program Files\IVI Foundation\VISA\Win64\Include\visa.h
+  C:\Program Files (x86)\IVI Foundation\VISA\WinNT\include\visatype.h
+  
 
 4. in octave gui ,run cmd: 
    mkoctfile visa_tb_windows_wrap.cc -L.  -lvisa32
