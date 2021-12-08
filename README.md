@@ -43,6 +43,8 @@ log like this:
 ########### copyright ######################################################################################
 main code is from : 
 https://github.com/dac922/octave-instrument-control/blob/master/legacy/visa_tb/visa_tb.cc
-thanks  https://github.com/dac922 
+
+thanks 
+https://github.com/dac922 
 
 
