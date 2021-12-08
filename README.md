@@ -30,11 +30,15 @@ below is something need to install:
 5. then you will see a "visa_tb_windows_wrap.oct" file .
    try to modify test_script.m do you own test!!!
    
-  #instid = viopen("TCPIP::192.168.3.84::INSTR");    
-  #viwrite(instid, "*idn?");
-  #viread(instid);
-  #viwrite(instid, ":MEAS:freq?");
-  #viread(instid);
+  instid = viopen("TCPIP::192.168.3.84::INSTR");    
+  
+  viwrite(instid, "*idn?");
+  
+  viread(instid);
+  
+  viwrite(instid, ":MEAS:freq?");
+  
+  viread(instid);
   
 
 log like this: 
