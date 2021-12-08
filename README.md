@@ -2,9 +2,8 @@
 This is a guide to wrap NI visa32.dll (lib) in octave on Windows10 PC  for instrument control .
 
 I have try it and compile a .oct file , then it works on windows octave.
-the log is like this:
-
 four base functions are working well !
+
 #################################################################################################
 below is something need to install: 
 1. install NI visa32 ,  my version is download from "RIGOL TECHNOLOGIES" https://www.rigolna.com/products/digital-oscilloscopes/1000z/ find  "UltraSigma Instrument Connectivity Driver" 
@@ -20,7 +19,8 @@ below is something need to install:
   "C:\Program Files\IVI Foundation\VISA\Win64\Lib_x64\msc\visa32.lib"    
   this one is ok.  
   and the *.h file: 
-  C:\Program Files\IVI Foundation\VISA\Win64\Include\visa.h 
+   C:\Program Files\IVI Foundation\VISA\Win64\Include\visa.h   
+   
    C:\Program Files (x86)\IVI Foundation\VISA\WinNT\include\visatype.h
    
 
@@ -45,6 +45,8 @@ main code is from :
 https://github.com/dac922/octave-instrument-control/blob/master/legacy/visa_tb/visa_tb.cc
 
 thanks 
+
 https://github.com/dac922 
+
 
 
