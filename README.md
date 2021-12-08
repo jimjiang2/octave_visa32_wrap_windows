@@ -23,9 +23,13 @@ below is something need to install:
    
    C:\Program Files (x86)\IVI Foundation\VISA\WinNT\include\visatype.h
    
+   
+   
 
 4. in octave gui ,run cmd: 
    mkoctfile visa_tb_windows_wrap.cc -L.  -lvisa32
+
+
 
 5. then you will see a "visa_tb_windows_wrap.oct" file .
    try to modify test_script.m do you own test!!!
@@ -40,6 +44,8 @@ below is something need to install:
   
   viread(instid);
   
+
+
 
 log like this: 
 ![image](https://user-images.githubusercontent.com/7239489/145223736-f8abc2f6-bc6a-41c1-90a4-ef5d586d1009.png)
