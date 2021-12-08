@@ -31,10 +31,10 @@ below is something need to install:
    try to modify test_script.m do you own test!!!
    
   instid = viopen("TCPIP::192.168.3.84::INSTR");    
-  viwrite(instid, "*idn?")
-  viread(instid)
-  viwrite(instid, ":MEAS:freq?")
-  viread(instid)
+  viwrite(instid, "*idn?");
+  viread(instid);
+  viwrite(instid, ":MEAS:freq?");
+  viread(instid);
   
 
 log like this: 
