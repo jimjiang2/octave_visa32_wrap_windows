@@ -11,7 +11,7 @@ below is something need to install:
 
 2. octave Version: https://ftpmirror.gnu.org/octave/windows/octave-6.4.0-w64-installer.exe octave-6.4.0-w64-installer.exe 
 
-3. open need file to local octave path:  
+3. copy  *.h & lib  file to local octave path:  
   ![image](https://user-images.githubusercontent.com/7239489/145222599-5e09e38a-8f78-4ec7-85f1-ced553006c27.png)
   visa.h , visatype.h , and visa32.lib file ( Note：  that there is a 64 bit and 32bits version of visa32..... ) 
   ![image](https://user-images.githubusercontent.com/7239489/145223125-5e05daa9-280f-4181-bb03-74d77386c8b7.png)
